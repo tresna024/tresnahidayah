@@ -1,0 +1,355 @@
+body {
+    font-family: "Monstserrat","Lora",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+#topbar {
+    background-color: #1A2C43;
+    height: 50px;
+    line-height: 50px;
+}
+
+#topbar .menu a{
+    color: #fff;
+}
+
+#topbar .menu a:hover {
+    color: #FFE100;
+}
+
+.menu, .search{
+    list-style: none;
+    padding: 0;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a{
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/* css untuk header */
+header {
+    padding: 50px;
+    background-color: #073C64;
+    height: 270px;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+    height: 120px;
+    width: 120px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.brand .brand-name h2 {
+    font-size: 25px;
+    color: #F5F5F5;
+    font-family: "PT Serif";
+}
+
+.brand .brand-name h3 {
+    font-size: 25px;
+    color: #F5F5F5;
+    letter-spacing: 10px;
+    font-family: "PT Serif";
+}
+
+.menu2 {
+    background-color: #fff;
+    height: 40px;
+}
+
+.menu2 li{
+    display: inline-block;
+}
+
+.menu2 li a {
+    font-size: 20px;
+    padding: 0 50px;
+}
+
+/* css untuk navbar */
+.navbar {
+    padding: 0;
+}
+
+.nav-link{
+    font-size: 14px;
+    border-right: 1px solid rgb(169, 169, 169);
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+.nav-link:hover{
+    background-color: #FFE100;
+}
+
+.bg-biru{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #1A2C43!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.active {
+    color: #1A2C43;
+}
+
+li.nav-item.active a{
+    color: #1A2C43;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 15px 35px;
+    display: inline-block;
+}
+
+
+/* css untuk slider hero area */
+#hero-area {
+    margin: 50px 50px 50px 50px;
+    background-color: #073C64;
+}
+
+#hero-area .slider-item-content {
+    position: relative;
+    top: 20%;
+    color: #ffff;
+    font-family: "Lora";
+
+}
+
+#slider-hero-nav .owl-prev,
+#slider-hero-nav .owl-next {
+    position: absolute;
+    top: 74%;
+    z-index: 10;
+    border: none;
+    background-color: #073C64 ;
+    color: #fff;
+    outline: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+#slider-hero-nav .owl-prev{
+    left: 0;
+    border-radius: 0 50px 50px 0;
+}
+
+#slider-hero-nav .owl-next {
+    right: 0;
+    border-radius: 50px 0 0 50px;
+}
+
+#slider-hero-nav .owl-prev:hover,
+#slider-hero-nav .owl-next:hover{
+    cursor: pointer;
+    background-color: #FFE100;
+}
+
+.slider-item-img img{
+    padding: 25px 0 0 25px;
+    height: 370px;
+    width: 160px;
+}
+
+/* css untuk di asrama */
+.asrama {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.asrama .text{
+    font-size: 25px;
+    font-family: "Lora";
+    text-transform: uppercase;
+    color: #073C64;
+    /* border-bottom: 10px solid #FFE100;
+    border-radius: 10px 10px; */
+}
+
+
+.asrama img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.isi{
+    text-align: left;
+}
+
+
+.btn.btn-pendaftaran {
+    background-color: #27AE60;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 25%;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.btn.btn-download {
+    background-color: #F39C12;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px;
+    width: 100%;
+    height: 25%;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+/* css untuk fasilitas */
+.fasilitas {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.fasilitas .text {
+    font-size: 25px;
+    font-family: "Lora";
+    text-transform: uppercase;
+    color: #073C64;
+    margin-top: 60px;
+}
+
+.fasilitas .content {
+    background-color: #073C64;
+    padding: 20px;
+}
+
+.fasilitas .content img {
+    width: 70%;
+    height: 80%;
+    position: relative;
+    top: 50px;
+    left: 60px;
+    border-radius: 20px ;
+}
+
+.fasilitas .content p {
+    position: relative;
+    top: 15px;
+    left: 100px;
+    font-size: 25px;
+    color: #fff;
+}
+
+/* css untuk bagian video */
+.video .text {
+    color: #073C64;
+}
+/* css untuk footer */
+#sosmed {
+    margin-top: 70px;
+    padding-top: 20px;
+    background-color: #073C64;
+    height: 400px;
+}
+
+.sosmed h1 {
+    color: #fff;
+    padding-left: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.sosmed p {
+    color: #fff;
+    padding-left: 50px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.sosmed ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.sosmed ul a p{
+    font-size: 15px;
+    color: rgb(169, 169, 169);
+}
+
+.sosmed ul a:hover {
+    transition: 0.3s;
+    color: #fff;
+}
+
+.menu-sosmed ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 2px;
+}
+
+.menu-sosmed img {
+    padding: 2px;
+}
+
+.gambar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.gambar-text {
+    margin-left: 80px;
+}
+
+.gambar li img {
+    width: 170px;
+    height: 150px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+footer {
+    background-color: #1A2C43;
+    color: #fff;
+    height: 50px;
+}
+
+footer p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+
+
+
+
